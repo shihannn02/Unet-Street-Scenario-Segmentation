@@ -25,6 +25,8 @@ Unet [4](https://arxiv.org/abs/1505.04597) was proposed in 2015 and is an import
 
 The initial Unet model performed well on sunny dataset of street-view, with global image accuracy reached 85.1%. Moreover, this model has high accuracy in several specific categories, such as Road, Sky, and Building. 
 
+**Note**: The implementation is within this branch.
+
 ### Fine tuning
 
 However, the pre-trained Unet model did not perform well on cloudy datasets, with a global image accuracy of around 62.6%, which is 20% lower than the accuracy under sunny conditions. When we observe the IOU of each category, we can find that the accuracy of IOU has almost all decreased for each category, with Building, Road, and Lanemaking showing the most significant decrease (all exceeding 30%), while only Tree's IOU remains almost stable.
